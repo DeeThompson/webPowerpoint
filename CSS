@@ -1,0 +1,76 @@
+body {
+  font-family: Bluu Next,Times New Roman;
+  font-size: 24px;
+  line-height: 1.25;
+
+  background-color: #edc7a9;
+  background-image: linear-gradient(180deg, #ffffff,rgba(255,255,255,0));
+  color: #000;
+
+  height: 100vh;
+  cursor: none;
+}
+div.cursor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.25s, height 0.25s;
+  pointer-events: none;
+  
+}
+
+
+
+
+
+@font-face {
+  font-family: Bluunext;
+  src: url(bluunext.woff);
+  
+}
+
+h2 {
+  font-size:  10vmin;
+  }
+section {
+position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:60%;
+  text-align: center;
+}
+section div.circle {
+  width:  20px;
+  height:  20px;
+  background-color: #004d9d;
+  border-radius:  50px;
+  display:  inline-block;
+  
+  transition: background-color 0.5s;
+  }
+section a{
+  color: #000;
+}
+  
+footer{
+  position:  fixed;
+  bottom:  0;
+  left:    0;
+  width:  100%;
+  padding: 30px;
+  
+  display:  flex;
+  justify-content:  center;
+  align-items:  center;
+  }
+
+footer img {
+  margin: 0 10px 0 10px;
+  }
+  
